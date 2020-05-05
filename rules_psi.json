@@ -1,0 +1,72 @@
+{
+    "P" : {
+        "range" : [-40, 41, 1],
+        "memberships" : {           
+            "aligned" : {
+                "mf" : "tri",
+                "shp" : [-10, 0, 10]
+            },
+            "under" : {
+                "mf" : "trap",
+                "shp" : [-60, -60, -30, 0]
+            },
+            "over" : {
+                "mf" : "trap",
+                "shp" : [0, 30, 60, 60]
+            }
+        },
+        "rules" : []
+    },
+    "D" : {
+        "range" : [-40, 41, 1],
+        "memberships" : {
+            "drifting" : {
+                "mf" : "trap",
+                "shp" : [-60, -60, -30, 0]
+            },
+            "closing" : {
+                "mf" : "trap",
+                "shp" : [0, 30, 60, 60]
+            },
+            "holding" : {
+                "mf" : "gauss",
+                "shp" : [0, 2.5]
+            }
+        },
+        "rules" : []
+    },   
+    "C" : {
+        "range" : [-2, 3, 1],
+        "memberships" : {
+            "bad" : {
+                "mf" : "trap",
+                "shp" : [-60, -60, -2.5, 0]
+            },
+            "good" : {
+                "mf" : "trap",
+                "shp" : [0, 2.5, 60, 60]
+            },
+            "neutral" : {
+                "mf" : "tri",
+                "shp" : [-2.5, 0, 2.5]
+            }
+        },  
+        "rules" : [
+            ["closing", "under", "good"],
+            ["closing", "over", "good"],
+            ["closing", "aligned", "bad"],
+            ["closing", "over-biased", "neutral"],
+            ["closing", "under-biased", "neutral"],
+            ["closing", "unbiased", "neutral"],
+            ["holding", "under", "neutral"],
+            ["holding", "over", "neutral"],
+            ["holding", "aligned", "good"],
+            ["holding", "over-biased", "bad"],
+            ["holding", "under-biased", "bad"],
+            ["holding", "unbiased", "neutral"],
+            ["drifting", "under", "bad"],
+            ["drifting", "over", "bad"],
+            ["drifting", "aligned", "neutral"]
+        ] 
+    }
+}
