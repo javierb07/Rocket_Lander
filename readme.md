@@ -1,6 +1,8 @@
 # Forked from arex18/rocket-lander
 
-I have attempted to add Fuzzy supervisory PID control to the existing PID controllers. The main simulation file and the pid file in the controls folder have been extended to reflect this addition.
+* I have attempted to add Fuzzy supervisory PID control to the existing PID controllers. The main simulation file and the pid file in the controls folder have been extended to reflect this addition.
+
+* Also added to the main simulation file are comparison metrics (time, fuel, goal), data saving for analysis
 
 # Rocket Lander OpenAI Environment
 
