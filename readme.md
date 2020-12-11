@@ -2,7 +2,7 @@
 
 * I have added Fuzzy supervisory PID control to the existing PID controllers. The main simulation file and the pid file in the controls folder have been extended to reflect this addition.
 
-* Also added to the main simulation file are comparison metrics (time, fuel, goal), data saving for analysis
+* Also added to the main simulation file are comparison metrics (time, fuel, goal) and data saving for analysis
 
 # Rocket Lander OpenAI Environment
 
