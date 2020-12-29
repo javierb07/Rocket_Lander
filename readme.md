@@ -118,6 +118,8 @@ Script evaluations were left here for reference.
 ## Authors
 
 * **Reuben Ferrante**
+* **Javier Belmonte**
+
 
 References: https://gym.openai.com/envs/LunarLander-v2/
 
