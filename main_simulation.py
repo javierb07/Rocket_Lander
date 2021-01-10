@@ -22,7 +22,7 @@ if __name__ == "__main__":
                 'Initial Force': '(6000, -10000)'}  # (6000, -10000)}random
 
     env = RocketLander(settings)
-    s = env.reset()
+    s = env._reset()
     random_environment = False   # Set to true to simulate movement of barge and wind
     verbose = True  # Set to true to print performance metrics to console
 
@@ -48,7 +48,7 @@ if __name__ == "__main__":
     left_or_right_barge_movement = np.random.randint(0, 2)
     epsilon = 0.05
     total_reward = 0
-    episode_number = 1 # Number of episodes to simulate
+    episode_number = 10 # Number of episodes to simulate
 
     for episode in range(episode_number):   # Simulate each episode
         for algorithm in algorithms:
@@ -56,11 +56,11 @@ if __name__ == "__main__":
             while True:
                 a = algorithm.pid_algorithm(s) # pass the state to the algorithm, get the actions
                 # Step through the simulation (1 step). Refer to Simulation Update in constants.py
-                s, r, done, info = env.step(a)
+                s, r, done, info = env._step(a)
                 total_reward += r   # Accumulate reward
                 # -------------------------------------
                 # Optional render
-                env.render()
+                env._render()
                 # Draw the target
                 env.draw_marker(env.landing_coordinates[0], env.landing_coordinates[1])
                 # Refresh render
@@ -79,18 +79,18 @@ if __name__ == "__main__":
                     if algorithm == pid:
                         metrics["pid"]["time"] = time.time() - start_time
                         metrics["pid"]["fuel"] = env.get_consumed_fuel()
-                        metrics["pid"]["x_final"] = s[0]
+                        metrics["pid"]["x_final"] = abs(s[0])
                         temp_dic = metrics["pid"].copy()
                         saved_pid_metrics.append(temp_dic)
                     elif algorithm == fuzz_pid:
                         metrics["fuzzy"]["time"] = time.time() - start_time
                         metrics["fuzzy"]["fuel"] = env.get_consumed_fuel()
-                        metrics["fuzzy"]["x_final"] = s[0]
+                        metrics["fuzzy"]["x_final"] = abs(s[0])
                         temp_dic = metrics["fuzzy"].copy()
                         saved_fuzzy_metrics.append(temp_dic)
 
                     total_reward = 0
-                    env.reset()
+                    env._reset()
                     break
 
     if verbose:

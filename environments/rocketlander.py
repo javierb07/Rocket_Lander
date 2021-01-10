@@ -83,7 +83,7 @@ class RocketLander(gym.Env):
         self.action_space = [0, 0, 0]       # Main Engine, Nozzle Angle, Left/Right Engine
         self.untransformed_state = [0] * 6  # Non-normalized state
 
-        self.reset()
+        self._reset()
 
     """ INHERITED """
 

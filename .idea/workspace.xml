@@ -2,152 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54f612f5-d975-4eb9-9d99-6094d28c23e7" name="Default" comment="Some code cleanups.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/RocketLanding.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/control_and_ai/unstable_control/es_fa_learning.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/control_and_ai/unstable_control/ev_control.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plotting/realtime_plot.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unit_tests/test_environment_steps_lqr.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/unit_tests/test_mpc_control.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/__init__.py" afterPath="$PROJECT_DIR$/evaluation_scripts/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/ddpg/model_1_normal_state/action_history.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/ddpg/model_1_normal_state/action_history.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/ddpg/model_1_normal_state/evaluation_results.npz" afterPath="$PROJECT_DIR$/evaluation_scripts/ddpg/model_1_normal_state/evaluation_results.npz" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/ddpg/model_1_normal_state/final_state_history.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/ddpg/model_1_normal_state/final_state_history.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/ddpg/model_1_normal_state/reward_results.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/ddpg/model_1_normal_state/reward_results.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/ddpg/model_2_unnormalized_longer_state/action_history.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/ddpg/model_2_unnormalized_longer_state/action_history.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/ddpg/model_2_unnormalized_longer_state/evaluation_results.npz" afterPath="$PROJECT_DIR$/evaluation_scripts/ddpg/model_2_unnormalized_longer_state/evaluation_results.npz" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/ddpg/model_2_unnormalized_longer_state/final_state_history.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/ddpg/model_2_unnormalized_longer_state/final_state_history.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/ddpg/model_2_unnormalized_longer_state/reward_results.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/ddpg/model_2_unnormalized_longer_state/reward_results.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/evaluation_main.py" afterPath="$PROJECT_DIR$/evaluation_scripts/evaluation_main.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/evaluation_parameters.py" afterPath="$PROJECT_DIR$/evaluation_scripts/evaluation_parameters.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501265354.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501265354.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501267340.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501267340.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501267675.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501267675.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501267928.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501267928.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501267993.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501267993.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501268616.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501268616.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501268798.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501268798.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501269208.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501269208.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501269249.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501269249.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501323973.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501323973.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501324105.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501324105.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501324345.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501324345.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501324541.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501324541.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501324590.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501324590.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501324647.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501324647.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501324712.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501324712.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501327556.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501327556.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501327658.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501327658.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501327753.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501327753.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501327814.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501327814.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501328330.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501328330.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501328455.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501328455.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501328500.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501328500.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501333017.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501333017.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501333088.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501333088.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501333236.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501333236.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501333382.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501333382.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501333523.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501333523.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501333570.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501333570.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501333801.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501333801.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501333855.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501333855.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501333921.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501333921.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501333990.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501333990.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501334439.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501334439.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501334788.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501334788.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501334848.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501334848.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501337564.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501337564.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501337702.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501337702.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501337818.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501337818.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501337870.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501337870.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501337923.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501337923.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501337988.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501337988.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501426827.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501426827.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501522190.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501522190.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501522243.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501522243.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501679224.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501679224.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501680396.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501680396.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501680573.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501680573.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501681045.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501681045.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1501681179.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1501681179.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1502187032.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1502187032.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1502187170.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1502187170.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1502187373.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1502187373.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1502207055.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1502207055.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1502207153.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1502207153.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1502207227.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1502207227.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1502207605.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1502207605.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1502293659.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1502293659.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1502293778.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1502293778.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1502293899.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1502293899.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1502293997.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1502293997.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1502294441.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1502294441.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1502294705.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1502294705.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/logs/events.out.tfevents.1502294997.LAPTOP-43KECMUO" afterPath="$PROJECT_DIR$/evaluation_scripts/logs/events.out.tfevents.1502294997.LAPTOP-43KECMUO" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/mpc/action_history.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/mpc/action_history.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/mpc/evaluation_results.npz" afterPath="$PROJECT_DIR$/evaluation_scripts/mpc/evaluation_results.npz" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/mpc/final_state_history.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/mpc/final_state_history.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/mpc/planned_actions_1.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/mpc/planned_actions_1.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/mpc/resulting_states.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/mpc/resulting_states.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/mpc/reward_results.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/mpc/reward_results.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/mpc/x_planned.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/mpc/x_planned.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/mpc/x_target.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/mpc/x_target.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/mpc/y_planned.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/mpc/y_planned.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/mpc/y_target.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/mpc/y_target.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/pid/action_history.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/pid/action_history.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/pid/evaluation_results.npz" afterPath="$PROJECT_DIR$/evaluation_scripts/pid/evaluation_results.npz" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/pid/final_state_history.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/pid/final_state_history.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/pid/reward_results.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/pid/reward_results.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/plotting_control_actions.py" afterPath="$PROJECT_DIR$/evaluation_scripts/plotting_control_actions.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/plotting_mpc_target_and_resulting_states.py" afterPath="$PROJECT_DIR$/evaluation_scripts/plotting_mpc_target_and_resulting_states.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/plotting_multiple_trajectories.py" afterPath="$PROJECT_DIR$/evaluation_scripts/plotting_multiple_trajectories.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/plotting_trajectory.py" afterPath="$PROJECT_DIR$/evaluation_scripts/plotting_trajectory.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/rl_q_learning/high_discretization/action_history.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/rl_q_learning/high_discretization/action_history.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/rl_q_learning/high_discretization/evaluation_results.npz" afterPath="$PROJECT_DIR$/evaluation_scripts/rl_q_learning/high_discretization/evaluation_results.npz" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/rl_q_learning/high_discretization/final_state_history.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/rl_q_learning/high_discretization/final_state_history.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/rl_q_learning/high_discretization/reward_results.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/rl_q_learning/high_discretization/reward_results.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/rl_q_learning/high_discretization_longer_state/action_history.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/rl_q_learning/high_discretization_longer_state/action_history.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/rl_q_learning/high_discretization_longer_state/evaluation_results.npz" afterPath="$PROJECT_DIR$/evaluation_scripts/rl_q_learning/high_discretization_longer_state/evaluation_results.npz" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/rl_q_learning/high_discretization_longer_state/final_state_history.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/rl_q_learning/high_discretization_longer_state/final_state_history.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/rl_q_learning/high_discretization_longer_state/reward_results.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/rl_q_learning/high_discretization_longer_state/reward_results.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/rl_q_learning/low_discretization/action_history.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/rl_q_learning/low_discretization/action_history.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/rl_q_learning/low_discretization/evaluation_results.npz" afterPath="$PROJECT_DIR$/evaluation_scripts/rl_q_learning/low_discretization/evaluation_results.npz" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/rl_q_learning/low_discretization/final_state_history.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/rl_q_learning/low_discretization/final_state_history.npy" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/evaluation/rl_q_learning/low_discretization/reward_results.npy" afterPath="$PROJECT_DIR$/evaluation_scripts/rl_q_learning/low_discretization/reward_results.npy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/constants.py" afterPath="$PROJECT_DIR$/constants.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/DDPG/README" afterPath="$PROJECT_DIR$/control_and_ai/DDPG/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/DDPG/actor.py" afterPath="$PROJECT_DIR$/control_and_ai/DDPG/actor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/DDPG/critic.py" afterPath="$PROJECT_DIR$/control_and_ai/DDPG/critic.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/DDPG/ddpg.py" afterPath="$PROJECT_DIR$/control_and_ai/DDPG/ddpg.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/DDPG/exploration.py" afterPath="$PROJECT_DIR$/control_and_ai/DDPG/exploration.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/DDPG/test.py" afterPath="$PROJECT_DIR$/control_and_ai/DDPG/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/DDPG/train.py" afterPath="$PROJECT_DIR$/control_and_ai/DDPG/train.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/DDPG/train_ddpg.py" afterPath="$PROJECT_DIR$/control_and_ai/DDPG/train_ddpg.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/DDPG/train_ddpg_gpu.py" afterPath="$PROJECT_DIR$/control_and_ai/DDPG/train_ddpg_gpu.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/DDPG/train_second_model.py" afterPath="$PROJECT_DIR$/control_and_ai/DDPG/train_second_model.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/DDPG/train_third_model_normalized.py" afterPath="$PROJECT_DIR$/control_and_ai/DDPG/train_third_model_normalized.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/DDPG/train_third_model_unnormalized.py" afterPath="$PROJECT_DIR$/control_and_ai/DDPG/train_third_model_unnormalized.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/DDPG/utils.py" afterPath="$PROJECT_DIR$/control_and_ai/DDPG/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/controllers.py" afterPath="$PROJECT_DIR$/control_and_ai/controllers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/evolutionary_strategy.py" afterPath="$PROJECT_DIR$/control_and_ai/evolutionary_strategy.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/function_approximation_q_learning.py" afterPath="$PROJECT_DIR$/control_and_ai/function_approximation_q_learning.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/function_approximation_rl/train_function_approximation_rl.py" afterPath="$PROJECT_DIR$/control_and_ai/function_approximation_rl/train_function_approximation_rl.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/helpers.py" afterPath="$PROJECT_DIR$/control_and_ai/helpers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/mpc.py" afterPath="$PROJECT_DIR$/control_and_ai/mpc.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/pid.py" afterPath="$PROJECT_DIR$/control_and_ai/pid.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/unstable_control/evolution_strategy_training.py" afterPath="$PROJECT_DIR$/control_and_ai/unstable_control/evolution_strategy_training.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/unstable_control/lqr_control.py" afterPath="$PROJECT_DIR$/control_and_ai/unstable_control/lqr_control.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/control_and_ai/unstable_control/mpc_control.py" afterPath="$PROJECT_DIR$/control_and_ai/unstable_control/mpc_control.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/environments/rocketlander.py" afterPath="$PROJECT_DIR$/environments/rocketlander.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main_simulation.py" afterPath="$PROJECT_DIR$/main_simulation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plotting/plotty.py" afterPath="$PROJECT_DIR$/plotting/plotty.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/environments/rocketlander.py" beforeDir="false" afterPath="$PROJECT_DIR$/environments/rocketlander.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_simulation.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -396,6 +255,7 @@
     <option name="width" value="1938" />
     <option name="height" value="1098" />
   </component>
+  <component name="ProjectId" id="1mqOmByMwb9ELGxu9iuCtQfdcPA" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -451,24 +311,19 @@
       <pane id="Scratches" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.main_simulation">
     <configuration name="main_simulation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rocket-lander" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -479,13 +334,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="rocket-lander" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_simulation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="realtime_plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rocket-lander" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -496,13 +355,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="rocket-lander" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plotting/realtime_plot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="rocketlander_v2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="RocketLanding" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -513,28 +376,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="RocketLanding" />
       <option name="SCRIPT_NAME" value="C:\Users\reube\PycharmProjects\rocket-lander\main_simulation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.rocketlander_v2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.main_simulation" />
-      <item index="2" class="java.lang.String" itemvalue="Python.realtime_plot" />
+    <list>
+      <item itemvalue="Python.rocketlander_v2" />
+      <item itemvalue="Python.main_simulation" />
+      <item itemvalue="Python.realtime_plot" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.main_simulation" />
-        <item index="1" class="java.lang.String" itemvalue="Python.realtime_plot" />
-        <item index="2" class="java.lang.String" itemvalue="Python.rocketlander_v2" />
+      <list>
+        <item itemvalue="Python.main_simulation" />
+        <item itemvalue="Python.realtime_plot" />
+        <item itemvalue="Python.rocketlander_v2" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="54f612f5-d975-4eb9-9d99-6094d28c23e7" name="Default" comment="" />
@@ -612,10 +476,6 @@
     <MESSAGE value="Refactoring. Added TODOs, removed unnecessary imports." />
     <MESSAGE value="Corrected .gitignore." />
     <option name="LAST_COMMIT_MESSAGE" value="Corrected .gitignore." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/plotting/__init__.py">
